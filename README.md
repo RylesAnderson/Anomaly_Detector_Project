@@ -19,6 +19,8 @@
 
 Anomaly Detector is a serverless cloud system that benchmarks parallel versus sequential execution by running three specialized AWS Lambda workers simultaneously against a weather data workload. Each morning at 8 AM Eastern, the system processes 30 Atlanta-area cities across three data sources and computes temperature anomalies against a 5-year historical baseline.
 
+Demo: [Anomaly Detector](http://anomaly-detector-dashboard.s3-website.us-east-2.amazonaws.com/)
+
 The project measures and compares three execution models:
 
 | Model | Description | Expected time |
